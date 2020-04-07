@@ -1,0 +1,5 @@
+baseURL = "https://digitalr00ts.pages.gitlab.disney.com/team-docs/"
+buildDrafts = false
+buildFuture = false
+canonifyURLs = true
+publishDir = "public"

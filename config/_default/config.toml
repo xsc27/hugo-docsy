@@ -1,0 +1,32 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Team Documentation"
+theme = "docsy"
+
+buildDrafts = true
+buildFuture = true
+
+publishDir = "_public"
+resourceDir = "_resources"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+
+# Image processing configuration.
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
